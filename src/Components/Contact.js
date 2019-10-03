@@ -92,7 +92,7 @@ class Contact extends Component {
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        This is Photoezaretzrezshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
