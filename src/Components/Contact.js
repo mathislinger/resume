@@ -7,7 +7,7 @@ class Contact extends Component {
       var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
+      var country = this.props.data.address.country;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
@@ -45,13 +45,13 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email {email}<span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>/>
+						   <label htmlFor="contactEmail">Email<span className="required">*</span></label>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -82,7 +82,7 @@ class Contact extends Component {
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />
-						   {city}, {state} {zip}<br />
+						   {zip} {city}, {country}<br />
 						   <span>{phone}</span>
 					   </p>
 				   </div>
