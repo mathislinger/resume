@@ -6,9 +6,10 @@ class Contact extends Component {
 
   constructor(props) {
 	super(props);
-	this.state = { name: '', email: '', subject: '', message: '' };
+	this.state = { name: '', email: '', subject: '', message: '', buttonShow: true };
 	this.handleChange = this.handleChange.bind(this);
 	this.handleSubmit = this.handleSubmit.bind(this);
+	this.handleSend = this.handleSend.bind(this);
   }
 
 
@@ -33,8 +34,10 @@ class Contact extends Component {
 	const variables = {name: this.state.name, email: this.state.email, subject: this.state.subject, message: this.state.message}
 
 	emailjs.send(serviceId, templateId, variables, userId)
+  }
 
-	return false
+   handleSend() {
+    this.setState({ name: '', email: '', subject: '', message: '', buttonShow: false })
   }
 
 
@@ -50,6 +53,16 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+    }
+
+
+    const buttonShow = this.state.buttonShow
+    let button
+    if (buttonShow) {
+      button = <button className="submit" onClick={this.handleSend}>Submit</button>
+    } else {
+      button = <button className="submit" disabled="disabled" style={{ backgroundColor: 'transparent', color: '#ffffff', cursor: "default" }}>Thank you for your message</button>
+      //<h4 style={{marginLeft: '170px'}}>Thank you for your message</h4>;
     }
 
     return (
@@ -98,8 +111,9 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                  {button}
                   </div>
+
 					</fieldset>
 				   </form>
 
