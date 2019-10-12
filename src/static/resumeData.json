@@ -4,7 +4,7 @@
     "occupation":"Data Scientist",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"mathis.jpeg",
-    "bio":"An hardworking and resourceful graduate with extensive understanding of mathematical and machine learning methods seeking a data science postition starting on. I am strongly interested in natural language processing, more precisely about automatic story generation. Experience of undertaking analytical work and research projects with tight deadlines.",
+    "bio":"I have experience in computer vision. Experience of undertaking analytical work and research projects with tight deadlines.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "linger.mathis@gmail.com",
     "phone": "+33 7 83 90 64 37",
@@ -74,45 +74,44 @@
     ],
     "skills":[
       {
+        "name":"Python",
+        "description":"Python is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "image":"python.png"
+      },
+      {
+        "name":"JavaScript",
+        "description":"I am fairly new to JavaScript. I mainly use this language when developing back-end and front-end web applications.",
+        "image":"javascript.png"
+      },
+      {
         "name":"Git",
-        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in work teams.",
         "image":"git.jpg"
       },
       {
-        "name":"Java",
-        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
-        "image":"java.jpg"
-      },
-      {
-        "name":"React Js",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "name":"React JS",
+        "description":"This is the JavaScript library I mainly use to build front-end of web applications. The resume webpage you are now reading had been made using ReactJS.",
         "image":"react.jpg"
       },
       {
-        "name":"Meteor JS",
-        "description":"I enjoy MeteorJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
-        "image":"meteor.jpg"
-      },
-
-      {
         "name":"Node JS",
-        "description":"Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
+        "description":"Node JS is my server-side scripting language of choice. My experience with it has been in conjunction with ReactJS-based projects",
         "image":"node.jpg"
       },
       {
-        "name":"Bootstrap 4",
-        "description":"I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
-        "image":"bootstrap.jpg"
+        "name":"Scikit-Learn",
+        "description":"This is the Python library I mainly use when I want to tackle an usual machine learning problem.",
+        "image":"sklearn.png"
       },
       {
-        "name":"MongoDB",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
-        "image":"mongo.jpg"
+        "name":"PyTorch",
+        "description":"This is the Python library I mainly use when I want to train a deep learning model. I really appreciate the philosophy of this library as well as the freedom it offers to build homemade neural networks.",
+        "image":"pytorch.png"
       },
       {
-        "name":"Heroku",
-        "description":"I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
-        "image":"heroku.jpg"
+        "name":"Elasticsearch",
+        "description":"I have used Elasticsearch when building a Newsfeed application. Indeed, Elasticsearch is particularly well suited to deal with textual data.",
+        "image":"elasticsearch.png"
       }
     ]
   },
@@ -153,12 +152,8 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious. And however difficult life may seem, there is always something you can do and succeed at. It matters that you don't just give up.",
+        "user":"Stephen Hawking"
       }
     ]
   }
