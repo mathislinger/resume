@@ -9,7 +9,6 @@ class Contact extends Component {
 	this.state = { name: '', email: '', subject: '', message: '', buttonShow: true };
 	this.handleChange = this.handleChange.bind(this);
 	this.handleSubmit = this.handleSubmit.bind(this);
-	this.handleSend = this.handleSend.bind(this);
   }
 
 
@@ -34,12 +33,9 @@ class Contact extends Component {
 	const variables = {name: this.state.name, email: this.state.email, subject: this.state.subject, message: this.state.message}
 
 	emailjs.send(serviceId, templateId, variables, userId)
-  }
 
-   handleSend() {
-    this.setState({ name: '', email: '', subject: '', message: '', buttonShow: false })
+	this.setState({ name: '', email: '', subject: '', message: '', buttonShow: false })
   }
-
 
 
   render() {
@@ -59,10 +55,9 @@ class Contact extends Component {
     const buttonShow = this.state.buttonShow
     let button
     if (buttonShow) {
-      button = <button className="submit" onClick={this.handleSend}>Submit</button>
+      button = <button className="submit">Submit</button>
     } else {
       button = <button className="submit" disabled="disabled" style={{ backgroundColor: 'transparent', color: '#ffffff', cursor: "default" }}>Thank you for your message</button>
-      //<h4 style={{marginLeft: '170px'}}>Thank you for your message</h4>;
     }
 
     return (
@@ -134,23 +129,19 @@ class Contact extends Component {
 				   </div>
 
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
+                  <h4 className="widget-title">Latest readings</h4>
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoezaretzrezshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        He, Kaiming et al. “Mask R-CNN.” 2017 IEEE International Conference on Computer Vision (ICCV) (2017): 2980-2988.
+                        <a href="https://arxiv.org/abs/1703.06870"> Available here</a>
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
                      </li>
                      <li>
                         <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        Ma, Wan-Duo & Lewis, J. & Kleijn, W.. (2019). The HSIC Bottleneck: Deep Learning without Back-Propagation.
+                        <a href="https://arxiv.org/abs/1908.01580"> Available here</a>
                         </span>
-                        <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
 		         </div>

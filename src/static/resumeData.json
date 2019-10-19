@@ -2,9 +2,9 @@
   "main": {
     "name":"Mathis Linger",
     "occupation":"Data Scientist",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"After finishing a MS in data science from ENSAE Paris, I joined the data & AI lab of BNP Paribas where I work as a data scientist",
     "image":"mathis.jpeg",
-    "bio":"I have experience in computer vision. Experience of undertaking analytical work and research projects with tight deadlines.",
+    "bio":"I am an athlete at heart, with a passion for coding. After graduating from ENSAE Paris, I started to work as a data scientist at BNP Paribas, where most of my projects involve either NLP or computer vision. Aside of data science, I am also really interested in web development.",
     "contactmessage":"Let's get in touch!",
     "email": "linger.mathis@gmail.com",
     "phone": "+33 7 83 90 64 37",
@@ -37,25 +37,25 @@
         "school":"ENSAE Paris",
         "degree":"MS in Data Science",
         "graduated":"2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":" "
       },
       {
         "school":"Toulouse School of Economics",
         "degree":"M.Sc in Statistics and Econometrics (awarded with high honours)",
         "graduated":"2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":""
       },
       {
         "school":"University of Montréal",
         "degree":"B.Sc in Mathematics and Economics",
         "graduated":"Exchange program",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":" "
       },
       {
         "school":"University of François-Rabelais",
         "degree":"B.Sc in Mathematics and Economics (awarded with high honours)",
         "graduated":"2015",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":" "
       }
     ],
     "work":[
@@ -63,13 +63,13 @@
         "company":"BNP Paribas CIB, Data & AI Lab",
         "title":"Expert machine learning",
         "years":"May 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine using Pytorch and a news feed application, where I built the online news clustering algorithm in python and the web application using NodeJS and ReactJS."
       },
       {
         "company":"Tinyclues",
         "title":"Data Scientist",
         "years":"April - September 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"The goal of this internship was to find the best way to cluster retailer’s products using users’ behaviors (pageviews, clicks ...). Methods investigated include embedding computations, spectral clustering and affinity propagation algorithm. I also worked on the existing predictive models, by tuning model’s features to improve performances and investigating predictive anomalies."
       }
     ],
     "skills":[
@@ -95,7 +95,7 @@
       },
       {
         "name":"Node JS",
-        "description":"Node JS is my server-side scripting language of choice. My experience with it has been in conjunction with ReactJS-based projects",
+        "description":"Node JS is my server-side scripting language of choice. My experience with it has been in conjunction with ReactJS-based projects.",
         "image":"node.jpg"
       },
       {
@@ -118,34 +118,22 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Website",
+        "category":"A React based curriculum project.",
+        "image":"website.jpg",
+        "url":"https://github.com/mathislinger/resume"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Distributed Lasso",
+        "category":"Implementation of distributed Lasso algorithm.",
+        "image":"distributed_lasso.jpg",
+        "url":"https://github.com/mathislinger/Distributed_Coordinate_Descent_for_L1_regularized_Logistic_Regression"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Online clustering",
+        "category":"Implementation of online clustering algorithm.",
+        "image":"online_clustering.jpg",
+        "url":"https://github.com/mathislinger/PAC_bayesian_online_clustering"
       }
     ]
   },
