@@ -2,9 +2,9 @@
   "main": {
     "name":"Mathis Linger",
     "occupation":"Data Scientist",
-    "description":"After finishing a MS in data science from ENSAE Paris, I joined the data & AI lab of BNP Paribas where I work as a data scientist",
+    "description":"After finishing a MS in data science from ENSAE Paris, I joined the data & AI lab of BNP Paribas where we build AI products for bankers",
     "image":"mathis.jpeg",
-    "bio":"I am an athlete at heart, with a passion for coding. After graduating from ENSAE Paris, I started to work as a data scientist at BNP Paribas, where most of my projects involve either NLP or computer vision. Aside of data science, I am also really interested in web development.",
+    "bio":"After graduating from ENSAE Paris, I started to work as a data scientist at BNP Paribas, where most of my projects involve either NLP or computer vision. Aside of data science, I am also really interested in web development.",
     "contactmessage":"Let's get in touch!",
     "email": "linger.mathis@gmail.com",
     "phone": "+33 7 83 90 64 37",
@@ -63,7 +63,7 @@
         "company":"BNP Paribas CIB, Data & AI Lab",
         "title":"Expert machine learning",
         "years":"May 2018 - Present",
-        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine using Pytorch and a news feed application, where I built the online news clustering algorithm in python and the web application using NodeJS and ReactJS."
+        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine, for which I supervised interns, and a news feed application. For both of these projects, I built the algorithm as well as the full stack application. Aside of these main projects, I was part of the team organizing the second edition of the BNP Paribas AI Summer School, a 2 days event gathering 22 academic speakers and 300 data experts."
       },
       {
         "company":"Tinyclues",
@@ -89,9 +89,9 @@
         "image":"git.jpg"
       },
       {
-        "name":"React JS",
-        "description":"This is the JavaScript library I mainly use to build front-end of web applications. The resume webpage you are now reading had been made using ReactJS.",
-        "image":"react.jpg"
+        "name":"Docker",
+        "description":"I often use Docker to dockerize my Python applications, providing an easier way to use them.",
+        "image":"docker.png"
       },
       {
         "name":"Node JS",
@@ -99,9 +99,9 @@
         "image":"node.jpg"
       },
       {
-        "name":"Scikit-Learn",
-        "description":"This is the Python library I mainly use when I want to tackle an usual machine learning problem.",
-        "image":"sklearn.png"
+        "name":"React JS",
+        "description":"This is the JavaScript library I mainly use to build front-end of web applications. The resume webpage you are now reading had been made using ReactJS.",
+        "image":"react.jpg"
       },
       {
         "name":"PyTorch",
