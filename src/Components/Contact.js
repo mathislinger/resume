@@ -129,17 +129,17 @@ class Contact extends Component {
 				   </div>
 
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest readings</h4>
+                  <h4 className="widget-title">Interesting readings</h4>
                   <ul id="twitter">
                      <li>
                         <span>
-                        He, Kaiming et al. “Mask R-CNN.” 2017 IEEE International Conference on Computer Vision (ICCV) (2017): 2980-2988.
-                        <a href="https://arxiv.org/abs/1703.06870"> Available here</a>
+                        Mary, Calauzènes & El Karou “Fairness-Aware Learning for Continuous Attributes and Treatments”, ICML 2019.
+                        <a href="http://proceedings.mlr.press/v97/mary19a/mary19a-supp.pdf"> Available here</a>
                         </span>
                      </li>
                      <li>
                         <span>
-                        Ma, Wan-Duo & Lewis, J. & Kleijn, W.. (2019). The HSIC Bottleneck: Deep Learning without Back-Propagation.
+                        Ma, Wan-Duo & Lewis ”The HSIC Bottleneck: Deep Learning without Back-Propagation”, 2019.
                         <a href="https://arxiv.org/abs/1908.01580"> Available here</a>
                         </span>
                      </li>

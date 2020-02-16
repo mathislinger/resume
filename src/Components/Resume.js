@@ -1,4 +1,15 @@
 import React, { Component } from 'react';
+import YouTube from 'react-youtube';
+
+function Video(props) {
+  if (props.video.length > 0) {
+    return <p className="newline"> <YouTube
+            videoId={props.video}
+        /></p>;
+  } else {
+    return null
+  }
+}
 
 class Resume extends Component {
   render() {
@@ -14,6 +25,7 @@ class Resume extends Component {
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p className="newline">{work.description}</p>
+            <Video video={work.video} />
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){

@@ -41,19 +41,13 @@
       },
       {
         "school":"Toulouse School of Economics",
-        "degree":"M.Sc in Statistics and Econometrics (awarded with high honours)",
+        "degree":"M.Sc in Statistics and Econometrics (awarded with highest honours)",
         "graduated":"2017",
         "description":""
       },
       {
         "school":"University of Montréal",
-        "degree":"B.Sc in Mathematics and Economics",
-        "graduated":"Exchange program",
-        "description":" "
-      },
-      {
-        "school":"University François-Rabelais",
-        "degree":"B.Sc in Mathematics and Economics (awarded with high honours)",
+        "degree":"B.Sc in Mathematics and Economics (awarded with highest honours)",
         "graduated":"2015",
         "description":" "
       }
@@ -63,54 +57,56 @@
         "company":"BNP Paribas CIB, Data & AI Lab",
         "title":"Expert machine learning",
         "years":"May 2018 - Present",
-        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine, for which I supervised interns, and a news feed application. For both of these projects, I built the algorithm as well as the full stack application. Aside of these main projects, I was part of the team organizing the second edition of the BNP Paribas AI Summer School, a 2 days event gathering 22 academic speakers and 300 data experts."
+        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine, for which I supervised interns, and a news feed application. For both of these projects, I built the algorithm as well as the full stack application. Aside of these main projects, I was part of the team organizing the second edition of the BNP Paribas AI Summer School, a 2 days event gathering 22 academic speakers and 300 data experts.",
+        "video": "hk-m5V-kQnY"
       },
       {
         "company":"Tinyclues",
         "title":"Data Scientist",
         "years":"April - September 2017",
-        "description":"The goal of this internship was to find the best way to cluster retailer’s products using users’ behaviors (pageviews, clicks ...). Methods investigated include embedding computations, spectral clustering and affinity propagation algorithm. I also worked on the existing predictive models, by tuning model’s features to improve performances and investigating predictive anomalies."
+        "description":"The goal of this internship was to find the best way to cluster retailer’s products using users’ behaviors (pageviews, clicks ...). Methods investigated include embedding computations, spectral clustering and affinity propagation algorithm. I also worked on the existing predictive models, by tuning model’s features to improve performances and investigating predictive anomalies.",
+        "video": ""
       }
     ],
     "skills":[
       {
         "name":"Python",
-        "description":"Python is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "description":"",
         "image":"python.png"
       },
       {
         "name":"JavaScript",
-        "description":"I am fairly new to JavaScript. I mainly use this language when developing back-end and front-end web applications.",
+        "description":"",
         "image":"javascript.png"
       },
       {
         "name":"Git",
-        "description":"I use Git for all of my projects so far. I have used Git for version control in work teams.",
+        "description":"",
         "image":"git.jpg"
       },
       {
         "name":"Docker",
-        "description":"I often use Docker to dockerize my Python applications, providing an easier way to use them.",
+        "description":"",
         "image":"docker.png"
       },
       {
         "name":"Node JS",
-        "description":"Node JS is my server-side scripting language of choice. My experience with it has been in conjunction with ReactJS-based projects.",
+        "description":"",
         "image":"node.jpg"
       },
       {
         "name":"React JS",
-        "description":"This is the JavaScript library I mainly use to build front-end of web applications. The resume webpage you are now reading had been made using ReactJS.",
+        "description":"",
         "image":"react.jpg"
       },
       {
         "name":"PyTorch",
-        "description":"This is the Python library I mainly use when I want to train a deep learning model. I really appreciate the philosophy of this library as well as the freedom it offers to build homemade neural networks.",
+        "description":"",
         "image":"pytorch.png"
       },
       {
         "name":"Elasticsearch",
-        "description":"I have used Elasticsearch when building a Newsfeed application. Indeed, Elasticsearch is particularly well suited to deal with textual data.",
+        "description":"",
         "image":"elasticsearch.png"
       }
     ]
