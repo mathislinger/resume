@@ -116,7 +116,7 @@
       {
         "title":"Website",
         "category":"A React based curriculum project.",
-        "image":"website.jpg",
+        "image":"website.png",
         "url":"https://github.com/mathislinger/resume"
       },
       {
@@ -128,7 +128,7 @@
       {
         "title":"Online clustering",
         "category":"Implementation of online clustering algorithm.",
-        "image":"online_clustering.jpg",
+        "image":"online_clustering.png",
         "url":"https://github.com/mathislinger/PAC_bayesian_online_clustering"
       }
     ]
