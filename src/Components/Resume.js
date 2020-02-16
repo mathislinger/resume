@@ -3,9 +3,9 @@ import YouTube from 'react-youtube';
 
 function Video(props) {
   if (props.video.length > 0) {
-    return <p className="newline"> <YouTube
+    return <div className="videoWrapper"> <YouTube
             videoId={props.video}
-        /></p>;
+        /></div>;
   } else {
     return null
   }

@@ -2,9 +2,9 @@
   "main": {
     "name":"Mathis Linger",
     "occupation":"Data Scientist",
-    "description":"After finishing a MS in data science from ENSAE Paris, I joined the data & AI lab of BNP Paribas where we build AI products for bankers",
+    "description":"After graduating from ENSAE Paris, I joined the data & AI lab of BNP Paribas CIB where we build AI products for bankers",
     "image":"mathis.jpeg",
-    "bio":"After graduating from ENSAE Paris, I started to work as a data scientist at BNP Paribas, where most of my projects involve either NLP or computer vision. Aside of data science, I am also really interested in web development.",
+    "bio":"After graduating from ENSAE Paris, I started to work as a data scientist at BNP Paribas CIB, where most of my projects involve either NLP, recommender systems or computer vision. Aside of data science, I am also really interested in web development.",
     "contactmessage":"Let's get in touch!",
     "email": "linger.mathis@gmail.com",
     "phone": "+33 7 83 90 64 37",
@@ -35,7 +35,7 @@
     "education":[
       {
         "school":"ENSAE Paris",
-        "degree":"MS in Data Science",
+        "degree":"MS in Data Science (awarded with high honours)",
         "graduated":"2018",
         "description":" "
       },
@@ -57,12 +57,12 @@
         "company":"BNP Paribas CIB, Data & AI Lab",
         "title":"Expert machine learning",
         "years":"May 2018 - Present",
-        "description":"Most of my projects involve either NLP or computer vision. I worked on the development of an internal OCR engine, for which I supervised interns, and a news feed application. For both of these projects, I built the algorithm as well as the full stack application. Aside of these main projects, I was part of the team organizing the second edition of the BNP Paribas AI Summer School, a 2 days event gathering 22 academic speakers and 300 data experts.",
+        "description":"Along the AI product we built, I mainly explored NLP, recommender systems and computer vision. I worked on the development of an internal OCR engine, for which I supervised interns, a news feed application as well as a recommender system in order to improve sales process. For all these projects, I also developed the full stack application. Besides, I was in charge of organizing the second edition of the BNP Paribas AI Summer School, a 2 days event gathering 22 academic speakers and 300 data experts.",
         "video": "hk-m5V-kQnY"
       },
       {
         "company":"Tinyclues",
-        "title":"Data Scientist",
+        "title":"Data Scientist, R&D team",
         "years":"April - September 2017",
         "description":"The goal of this internship was to find the best way to cluster retailer’s products using users’ behaviors (pageviews, clicks ...). Methods investigated include embedding computations, spectral clustering and affinity propagation algorithm. I also worked on the existing predictive models, by tuning model’s features to improve performances and investigating predictive anomalies.",
         "video": ""
